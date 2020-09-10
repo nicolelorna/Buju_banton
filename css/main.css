@@ -1,0 +1,184 @@
+body{
+  background-repeat: no-repeat;
+	background-size:cover;
+}
+body.home{
+    background-image:url("../images/Road.jpeg");
+   
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+}
+
+li {
+  float: right;
+  font-size:20px;
+}
+
+li a {
+  display: block;
+  color:purple;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color:#dd9fed;
+  
+}
+
+h1{
+    color:white;
+    text-align:center;
+    padding-top: 20px;
+    margin-right: 300px;
+    font-size:50px;
+  }
+
+  .tradition{
+    justify-content: center;
+    color:black;
+    padding-top:5px;
+    font-size:20px;
+    padding-left:10px;
+  }
+#image{
+   display:grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-gap: 2rem;
+   padding:5px;
+   
+
+}
+.item{
+  width:200px;
+  text-align:center;
+  display:block;
+  background-color: transparent;
+  border: 1px solid transparent;
+  margin-right: 10px;
+  margin-bottom: 1px;
+  float:left;
+  color:black;
+  grid-template-columns: 1fr 1fr 1fr;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2rem;
+  padding:10px;
+  padding-left:10px;
+}
+h2{
+  color:black;
+  text-align:center;
+
+}
+p{
+  color:black;
+  text-align:left;
+}
+.welcome{
+  justify-content: center;
+  color:white;
+  padding-top:5px;
+  font-size:20px;
+}
+p{
+  color:black;
+  font-size:20px;
+}
+
+#foods{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2rem;
+  padding:5px;
+}
+
+.delicacy{
+  width:200px;
+  text-align:center;
+  display:block;
+  background-color: transparent;
+  border: 1px solid transparent;
+  margin-right: 10px;
+  margin-bottom: 1px;
+  float:left;
+  color:black;
+  grid-template-columns: 1fr 1fr 1fr;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2rem;
+  padding:95px;
+
+}
+.meru{
+  float:left;
+  margin-right: 20px;
+  margin-left: 20px;
+  min-height: 100%;
+  text-align: right;
+  margin-right: 50px;
+  margin-left: 50px;
+  color:black;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding: 20px;
+  margin-top:25px;
+}
+.p5{
+  color:black;
+}
+.evil{
+  float:right;
+  margin-right: 20px;
+  margin-left: 20px;
+  min-height: 100%;
+  text-align: left;
+  margin-right: 50px;
+  margin-left: 50px;
+  color:black;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding: 20px;
+  margin-top:25px;
+
+}
+.p6{
+  color:black;
+  margin-top:20px;
+  padding:20px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+.p7{
+  color:black;
+}
+#pictures{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+    padding:5px;
+    
+}
+.pic{
+  width:200px;
+  text-align:center;
+  display:block;
+  background-color: transparent;
+  border: 1px solid transparent;
+  margin-right: 10px;
+  margin-bottom: 1px;
+  float:left;
+  color:white;
+  grid-template-columns: 1fr 1fr 1fr;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2rem;
+  padding:10px;
+  padding-left:10px;
+}
